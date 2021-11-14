@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "What to know about social media and mental health",
+    "site": "https://www.medicalnewstoday.com/articles/social-media-and-mental-health#managing-the-effects",
+    "imageName": "depression"
+  },
+  {
+    "id": 1,
+    "title": "The Negative Effects of Influencers",
+    "site": "https://www.theteenmagazine.com/the-negative-effects-of-influencers",
+    "imageName": "kardashian"
+  },
+  {
+    "id": 2,
+    "title": "Photoshop and social media have a massive impact on students attitude and mental health",
+    "site": "https://bhstimes.com/1030/features/photoshop-and-social-media-have-a-massive-impact-on-students-attitude-and-mental-health/",
+    "imageName": "photoshop"
+  },
+  {
+    "id": 3,
+    "title": "Social Media and Mental Health",
+    "site": "https://www.helpguide.org/articles/mental-health/social-media-and-mental-health.htm",
+    "imageName": "phone"
+  },
+  {
+    "id": 4,
+    "title": "How TikTok Is Addictive",
+    "site": "https://medium.com/dataseries/how-tiktok-is-addictive-1e53dec10867",
+    "imageName": "tiktok"
+  }
+]

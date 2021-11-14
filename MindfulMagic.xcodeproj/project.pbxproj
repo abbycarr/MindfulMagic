@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C40CD5D9274095F80045864E /* MindfulMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD5D8274095F80045864E /* MindfulMagicApp.swift */; };
 		C40CD5DB274095F80045864E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD5DA274095F80045864E /* ContentView.swift */; };
 		C40CD5DD274095FF0045864E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40CD5DC274095FF0045864E /* Assets.xcassets */; };
 		C40CD5E0274095FF0045864E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40CD5DF274095FF0045864E /* Preview Assets.xcassets */; };
 		C40CD5EA274095FF0045864E /* MindfulMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD5E9274095FF0045864E /* MindfulMagicTests.swift */; };
 		C40CD5F4274095FF0045864E /* MindfulMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD5F3274095FF0045864E /* MindfulMagicUITests.swift */; };
 		C40CD5F6274095FF0045864E /* MindfulMagicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD5F5274095FF0045864E /* MindfulMagicUITestsLaunchTests.swift */; };
+		C40CD603274098420045864E /* SitePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD602274098420045864E /* SitePage.swift */; };
+		C40CD6052740990C0045864E /* SiteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD6042740990C0045864E /* SiteRow.swift */; };
+		C40CD60927409CFB0045864E /* SiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD60827409CFB0045864E /* SiteList.swift */; };
+		C40CD60D2740A0C40045864E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD60C2740A0C40045864E /* ModelData.swift */; };
+		C40CD60F2740A3950045864E /* sites.json in Resources */ = {isa = PBXBuildFile; fileRef = C40CD60E2740A3950045864E /* sites.json */; };
+		C4C8443C2740D09C006F9BE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8443B2740D09C006F9BE4 /* ViewController.swift */; };
+		C4C844422740E584006F9BE4 /* MindfulMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C844412740E584006F9BE4 /* MindfulMagicApp.swift */; };
+		C4C844B92740EEDC006F9BE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C844B82740EEDC006F9BE4 /* SceneDelegate.swift */; };
+		C4C8450A274152FE006F9BE4 /* YogaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C84509274152FE006F9BE4 /* YogaList.swift */; };
+		C4C8450C274153EA006F9BE4 /* yoga.json in Resources */ = {isa = PBXBuildFile; fileRef = C4C8450B274153EA006F9BE4 /* yoga.json */; };
+		C4C8450E2741547D006F9BE4 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8450D2741547D006F9BE4 /* JournalView.swift */; };
+		C4C84510274156A7006F9BE4 /* ExcersizeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8450F274156A7006F9BE4 /* ExcersizeList.swift */; };
+		C4C84512274156B5006F9BE4 /* MeditationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C84511274156B5006F9BE4 /* MeditationList.swift */; };
+		C4C84515274156FF006F9BE4 /* exercise.json in Resources */ = {isa = PBXBuildFile; fileRef = C4C84513274156FF006F9BE4 /* exercise.json */; };
+		C4C84516274156FF006F9BE4 /* meditation.json in Resources */ = {isa = PBXBuildFile; fileRef = C4C84514274156FF006F9BE4 /* meditation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		C40CD5D5274095F80045864E /* MindfulMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40CD5D8274095F80045864E /* MindfulMagicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMagicApp.swift; sourceTree = "<group>"; };
 		C40CD5DA274095F80045864E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C40CD5DC274095FF0045864E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40CD5DF274095FF0045864E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +57,21 @@
 		C40CD5EF274095FF0045864E /* MindfulMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40CD5F3274095FF0045864E /* MindfulMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMagicUITests.swift; sourceTree = "<group>"; };
 		C40CD5F5274095FF0045864E /* MindfulMagicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMagicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C40CD602274098420045864E /* SitePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitePage.swift; sourceTree = "<group>"; };
+		C40CD6042740990C0045864E /* SiteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteRow.swift; sourceTree = "<group>"; };
+		C40CD60827409CFB0045864E /* SiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteList.swift; sourceTree = "<group>"; };
+		C40CD60C2740A0C40045864E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		C40CD60E2740A3950045864E /* sites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sites.json; sourceTree = "<group>"; };
+		C4C8443B2740D09C006F9BE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4C844412740E584006F9BE4 /* MindfulMagicApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindfulMagicApp.swift; sourceTree = "<group>"; };
+		C4C844B82740EEDC006F9BE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4C84509274152FE006F9BE4 /* YogaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaList.swift; sourceTree = "<group>"; };
+		C4C8450B274153EA006F9BE4 /* yoga.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yoga.json; sourceTree = "<group>"; };
+		C4C8450D2741547D006F9BE4 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		C4C8450F274156A7006F9BE4 /* ExcersizeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcersizeList.swift; sourceTree = "<group>"; };
+		C4C84511274156B5006F9BE4 /* MeditationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationList.swift; sourceTree = "<group>"; };
+		C4C84513274156FF006F9BE4 /* exercise.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise.json; sourceTree = "<group>"; };
+		C4C84514274156FF006F9BE4 /* meditation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meditation.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +122,12 @@
 		C40CD5D7274095F80045864E /* MindfulMagic */ = {
 			isa = PBXGroup;
 			children = (
-				C40CD5D8274095F80045864E /* MindfulMagicApp.swift */,
-				C40CD5DA274095F80045864E /* ContentView.swift */,
+				C4C844412740E584006F9BE4 /* MindfulMagicApp.swift */,
+				C4C844B82740EEDC006F9BE4 /* SceneDelegate.swift */,
+				C4C8443F2740D265006F9BE4 /* Views */,
+				C4C8443E2740D25C006F9BE4 /* Controller */,
+				C4C8443D2740D252006F9BE4 /* Model */,
+				C4C844402740D27D006F9BE4 /* Resources */,
 				C40CD5DC274095FF0045864E /* Assets.xcassets */,
 				C40CD5DE274095FF0045864E /* Preview Content */,
 			);
@@ -125,6 +157,48 @@
 				C40CD5F5274095FF0045864E /* MindfulMagicUITestsLaunchTests.swift */,
 			);
 			path = MindfulMagicUITests;
+			sourceTree = "<group>";
+		};
+		C4C8443D2740D252006F9BE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C40CD602274098420045864E /* SitePage.swift */,
+				C40CD60C2740A0C40045864E /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4C8443E2740D25C006F9BE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8443B2740D09C006F9BE4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4C8443F2740D265006F9BE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C40CD6042740990C0045864E /* SiteRow.swift */,
+				C40CD60827409CFB0045864E /* SiteList.swift */,
+				C4C84509274152FE006F9BE4 /* YogaList.swift */,
+				C40CD5DA274095F80045864E /* ContentView.swift */,
+				C4C8450D2741547D006F9BE4 /* JournalView.swift */,
+				C4C84511274156B5006F9BE4 /* MeditationList.swift */,
+				C4C8450F274156A7006F9BE4 /* ExcersizeList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4C844402740D27D006F9BE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4C84513274156FF006F9BE4 /* exercise.json */,
+				C4C84514274156FF006F9BE4 /* meditation.json */,
+				C4C8450B274153EA006F9BE4 /* yoga.json */,
+				C40CD60E2740A3950045864E /* sites.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40CD5E0274095FF0045864E /* Preview Assets.xcassets in Resources */,
+				C4C8450C274153EA006F9BE4 /* yoga.json in Resources */,
 				C40CD5DD274095FF0045864E /* Assets.xcassets in Resources */,
+				C4C84516274156FF006F9BE4 /* meditation.json in Resources */,
+				C40CD60F2740A3950045864E /* sites.json in Resources */,
+				C4C84515274156FF006F9BE4 /* exercise.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C84510274156A7006F9BE4 /* ExcersizeList.swift in Sources */,
+				C40CD60927409CFB0045864E /* SiteList.swift in Sources */,
+				C4C8450A274152FE006F9BE4 /* YogaList.swift in Sources */,
 				C40CD5DB274095F80045864E /* ContentView.swift in Sources */,
-				C40CD5D9274095F80045864E /* MindfulMagicApp.swift in Sources */,
+				C40CD6052740990C0045864E /* SiteRow.swift in Sources */,
+				C4C84512274156B5006F9BE4 /* MeditationList.swift in Sources */,
+				C4C844422740E584006F9BE4 /* MindfulMagicApp.swift in Sources */,
+				C40CD603274098420045864E /* SitePage.swift in Sources */,
+				C4C8450E2741547D006F9BE4 /* JournalView.swift in Sources */,
+				C4C8443C2740D09C006F9BE4 /* ViewController.swift in Sources */,
+				C40CD60D2740A0C40045864E /* ModelData.swift in Sources */,
+				C4C844B92740EEDC006F9BE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
